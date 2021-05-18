@@ -1,0 +1,43 @@
+.side-panel {
+  background-color: var(--gray-bg);
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 24px 0 24px;
+  flex: 1;
+}
+
+.puppy-photo__img {
+  height: 256px;
+  width: 256px;
+  object-fit: cover;
+  filter: sepia(100%);
+  transform: translateY(4px);
+}
+
+.side-panel__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-panel__logo {
+  background-color: var(--main-bg);
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+}
+
+.fa-paw {
+  color: var(--gray-bg);
+  transform: rotate(-45deg);
+}
+
+.side-panel__company-name {
+  margin-left: 8px;
+  font-family: var(--main-font);
+  font-weight: 600;
+}

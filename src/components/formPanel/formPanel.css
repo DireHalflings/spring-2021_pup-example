@@ -1,0 +1,44 @@
+.form-panel {
+  background-color: var(--light-pink-bg);
+  flex: 2;
+  height: 75vh;
+  padding: 24px;
+}
+
+.form-panel__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-panel__split {
+  display: flex;
+  flex: 1;
+}
+
+.form-panel__left, .form-panel__right {
+  width: 50%;
+  padding: 8px;
+  padding-right: 64px;
+}
+
+.form-panel__controls {
+  background-color: white;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.form-panel__btn {
+  background-color: var(--gray-bg);
+  color: white;
+  height: 48px;
+  border: none;
+  width: 128px;
+  border-radius: 24px;
+  font-family: var(--main-font);
+  cursor: pointer;
+}

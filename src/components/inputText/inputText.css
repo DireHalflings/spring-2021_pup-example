@@ -1,0 +1,17 @@
+.text-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.text-input__label {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--main-font);
+}
+
+.text-input__input {
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+}
